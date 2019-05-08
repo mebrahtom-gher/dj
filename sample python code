@@ -1,0 +1,38 @@
+#python sample magicale game with our team meber
+import sys
+import random
+
+ans = True
+
+while ans:
+    question = input("hii my team membe please press any number from 1-8 and you will show the magic: (press enter to quit) ")
+    
+    answers = random.randint(1,8)
+    
+    if question == "":
+        sys.exit()
+    
+    elif answers == 1:
+        print ("you have no chance your girl freid have take by some one else")
+    
+    elif answers == 2:
+        print ("oww my God you are lucky you hav get chance to go america in DV 2019 DV 2019 congra.. ........wow ")
+    
+    elif answers == 3:
+        print (" you will score A+ in open source computing course")
+    
+    elif answers == 4:
+        print ("shit......your facebook acout have hacked by black hackers")
+    
+    elif answers == 5:
+        print ("i have ordered you to submit one software on github")
+    
+    elif answers == 6:
+        print ("your name is mebrahtom eyob or tesfay i am shure")
+    
+    elif answers == 7:
+        print ("django developer invite you for dinner today")
+    
+    elif answers == 8:
+        print ("i am python i do'nt who you are i am shure you love me")
+
